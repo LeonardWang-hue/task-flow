@@ -1,4 +1,4 @@
-﻿<a id="readme-top"></a>
+<a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
 <div align="center">
@@ -25,9 +25,9 @@
     <br />
     <a href="#demo"><strong>View Demo</strong></a>
     ·
-    <a href="https://github.com/yourusername/taskflow/issues/new?labels=bug"><strong>Report Bug</strong></a>
+    <a href="https://github.com/luolei/task-flow/issues/new?labels=bug"><strong>Report Bug</strong></a>
     ·
-    <a href="https://github.com/yourusername/taskflow/issues/new?labels=enhancement"><strong>Request Feature</strong></a>
+    <a href="https://github.com/luolei/task-flow/issues/new?labels=enhancement"><strong>Request Feature</strong></a>
   </p>
 </div>
 
@@ -65,25 +65,25 @@
 
 Multi-user simulated authentication with one-click demo accounts.
 
-<img src="https://raw.githubusercontent.com/yourusername/taskflow/main/docs/login.png" alt="Login Page" width="800" />
+<img src="https://raw.githubusercontent.com/luolei/task-flow/main/docs/login.png" alt="Login Page" width="800" />
 
 ### Task Dashboard
 
 Drag-and-drop task management with real-time search, filter, and sort.
 
-<img src="https://raw.githubusercontent.com/yourusername/taskflow/main/docs/dashboard.png" alt="Task Dashboard" width="800" />
+<img src="https://raw.githubusercontent.com/luolei/task-flow/main/docs/dashboard.png" alt="Task Dashboard" width="800" />
 
 ### Dark Mode
 
 Full dark mode support with system preference detection and manual toggle.
 
-<img src="https://raw.githubusercontent.com/yourusername/taskflow/main/docs/dark-mode.png" alt="Dark Mode" width="800" />
+<img src="https://raw.githubusercontent.com/luolei/task-flow/main/docs/dark-mode.png" alt="Dark Mode" width="800" />
 
 ### Project Showcase
 
 Showcase your projects with tech tags and external links.
 
-<img src="https://raw.githubusercontent.com/yourusername/taskflow/main/docs/projects.png" alt="Project Showcase" width="800" />
+<img src="https://raw.githubusercontent.com/luolei/task-flow/main/docs/projects.png" alt="Project Showcase" width="800" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,7 +144,7 @@ Showcase your projects with tech tags and external links.
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/taskflow.git
+   git clone https://github.com/luolei/task-flow.git
    cd taskflow
    ```
 
@@ -302,7 +302,7 @@ const { projects, addProject, editProject, removeProject } = useProjects();
 - [ ] End-to-end tests with Playwright
 - [ ] Internationalization (i18n)
 
-See the [open issues](https://github.com/yourusername/taskflow/issues) for a full list of proposed features.
+See the [open issues](https://github.com/luolei/task-flow/issues) for a full list of proposed features.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

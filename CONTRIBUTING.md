@@ -1,4 +1,4 @@
-﻿# Contributing to TaskFlow
+# Contributing to TaskFlow
 
 First off, thank you for considering contributing to TaskFlow! It's people like you that make the open-source community such a fantastic place.
 
@@ -10,7 +10,7 @@ This project and everyone participating in it is governed by the [Contributor Co
 
 ### Reporting Bugs
 
-Before creating bug reports, please check the [existing issues](https://github.com/yourusername/taskflow/issues) as you might find out that you don't need to create one. When you are creating a bug report, please include as many details as possible:
+Before creating bug reports, please check the [existing issues](https://github.com/luolei/task-flow/issues) as you might find out that you don't need to create one. When you are creating a bug report, please include as many details as possible:
 
 - **Use a clear and descriptive title**
 - **Describe the exact steps to reproduce the problem**
@@ -49,7 +49,7 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/taskflow.git
+git clone https://github.com/luolei/task-flow.git
 cd taskflow
 
 # Install dependencies

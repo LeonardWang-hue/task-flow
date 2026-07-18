@@ -1,6 +1,7 @@
 {
-  "name": "next.js",
+  "name": "task-flow",
   "version": "0.1.0",
+  "description": "A modern, full-featured task management app built with Next.js 16, React 19, and Tailwind CSS 4. Drag-and-drop, dark mode, multi-user support.",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -25,7 +26,26 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
+    "playwright": "^1.61.1",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luolei/task-flow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luolei/task-flow/issues"
+  },
+  "homepage": "https://github.com/luolei/task-flow#readme",
+  "keywords": [
+    "task-management",
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "typescript",
+    "drag-and-drop",
+    "dnd-kit",
+    "dark-mode"
+  ]
 }
