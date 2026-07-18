@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { PRIORITY_LABELS, PRIORITY_COLORS, STATUS_LABELS, STATUS_COLORS, TAG_LABELS } from '@/lib/constants';
 import type { TaskFilter, TaskPriority, TaskSort, TaskSortField, TaskStatus } from '@/lib/types';
 
