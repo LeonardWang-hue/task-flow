@@ -1,4 +1,6 @@
-﻿'use client';
+'use client';
+
+import Image from 'next/image';
 
 import type { Project } from '@/lib/types';
 import { TAG_LABELS } from './TaskControls';
@@ -14,7 +16,7 @@ export default function ProjectCard({ project, onEdit, onDelete }: ProjectCardPr
     <div className="rounded-xl border border-[var(--border)] bg-[var(--card)] overflow-hidden group transition-shadow hover:shadow-sm">
       <div className="aspect-video bg-gradient-to-br from-[var(--muted)] to-[var(--muted)]/50 flex items-center justify-center">
         {project.image ? (
-          <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+          <Image src={project.image} alt={project.title} width={600} height={340} className="w-full h-full object-cover" />
         ) : (
           <div className="text-center p-6">
             <div className="text-4xl mb-2">

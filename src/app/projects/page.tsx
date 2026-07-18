@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
@@ -10,10 +10,6 @@ import Header from '@/components/Header';
 import ProjectCard from '@/components/ProjectCard';
 import ProjectEditor from '@/components/ProjectEditor';
 
-const TAG_LABELS: Record<string, string> = {
-  nextjs: 'Next.js', react: 'React', typescript: 'TypeScript', tailwind: 'Tailwind',
-  fullstack: '全栈', api: 'API', tool: '工具', game: '游戏', mobile: '移动端', other: '其他',
-};
 
 export default function ProjectsPage() {
   const { user, isLoading: authLoading } = useAuth();
